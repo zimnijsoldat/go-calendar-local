@@ -36,7 +36,7 @@ VTIMEZONE = [
 ]
 
 
-def load_excludes(path: str = "exclude.txt") -> list:
+def load_list(path: str) -> list:
     """One match per line; blank lines and lines starting with # are ignored."""
     try:
         with open(path, encoding="utf-8") as f:
@@ -62,8 +62,9 @@ def event_title(block: list) -> str:
     return ""
 
 
-def drop_excluded(lines: list, excludes: list) -> list:
-    if not excludes:
+def filter_events(lines: list, includes: list, excludes: list) -> list:
+    """Keep events matching include.txt (all, if it is empty), minus exclude.txt."""
+    if not includes and not excludes:
         return lines
     out, block = [], None
     for line in lines:
@@ -74,7 +75,9 @@ def drop_excluded(lines: list, excludes: list) -> list:
             block.append(line)
             if line == "END:VEVENT":
                 title = event_title(block).lower()
-                if any(x in title for x in excludes):
+                if includes and not any(x in title for x in includes):
+                    print(f"Not included: {event_title(block)}")
+                elif any(x in title for x in excludes):
                     print(f"Excluded: {event_title(block)}")
                 else:
                     out.extend(block)
@@ -84,8 +87,10 @@ def drop_excluded(lines: list, excludes: list) -> list:
     return out
 
 
-def convert(text: str, excludes: list = ()) -> str:
-    lines = drop_excluded(text.replace("\r\n", "\n").split("\n"), list(excludes))
+def convert(text: str, includes: list = (), excludes: list = ()) -> str:
+    lines = filter_events(
+        text.replace("\r\n", "\n").split("\n"), list(includes), list(excludes)
+    )
     out = []
     timed = 0
     for line in lines:
@@ -109,8 +114,8 @@ def convert(text: str, excludes: list = ()) -> str:
         # Feed layout changed: insert before the first event instead.
         first = out.index("BEGIN:VEVENT") if "BEGIN:VEVENT" in out else len(out) - 1
         out[first:first] = VTIMEZONE
-    if timed == 0:
-        raise SystemExit("No timed events found; refusing to publish an empty-looking feed.")
+    if "BEGIN:VEVENT" not in text:
+        raise SystemExit("Upstream feed has no events; keeping the previous file.")
     return "\r\n".join(out)
 
 
@@ -122,7 +127,7 @@ def main() -> None:
     if "BEGIN:VCALENDAR" not in text:
         raise SystemExit("Upstream did not return a calendar; keeping the previous file.")
     with open(dest, "w", encoding="utf-8", newline="") as f:
-        f.write(convert(text, load_excludes()))
+        f.write(convert(text, load_list("include.txt"), load_list("exclude.txt")))
 
 
 if __name__ == "__main__":

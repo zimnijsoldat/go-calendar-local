@@ -1,0 +1,7 @@
+# Events to show. If this list has any entries, ONLY matching events are kept.
+# Delete every entry (or comment them all out with #) to show everything again.
+# An event matches when its title contains the line (capitals don't matter).
+# exclude.txt still applies on top of this list.
+
+[CD]
+Minior Showers
