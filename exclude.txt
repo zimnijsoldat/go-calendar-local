@@ -1,0 +1,12 @@
+# Events to leave out of the calendar.
+# One per line. An event is removed when its title contains the line
+# (capitals don't matter). Lines starting with # are ignored.
+#
+# Examples:
+#   [GBL]            removes every GO Battle League event
+#   Max Monday       removes events with "Max Monday" in the title
+#   Los Angeles      removes the Los Angeles Tour event only
+
+[S] Twilight Trails
+adidas × Pokémon
+GO Pass: November

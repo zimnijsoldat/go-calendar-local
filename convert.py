@@ -36,8 +36,56 @@ VTIMEZONE = [
 ]
 
 
-def convert(text: str) -> str:
-    lines = text.replace("\r\n", "\n").split("\n")
+def load_excludes(path: str = "exclude.txt") -> list:
+    """One match per line; blank lines and lines starting with # are ignored."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return [
+                s.strip().lower()
+                for s in f
+                if s.strip() and not s.strip().startswith("#")
+            ]
+    except FileNotFoundError:
+        return []
+
+
+def event_title(block: list) -> str:
+    """Unfolded, unescaped SUMMARY of one VEVENT block."""
+    for i, line in enumerate(block):
+        if line.startswith("SUMMARY"):
+            value = line.split(":", 1)[1]
+            for cont in block[i + 1:]:
+                if not cont.startswith((" ", "\t")):
+                    break
+                value += cont[1:]
+            return value.replace("\\,", ",").replace("\\;", ";").replace("\\\\", "\\")
+    return ""
+
+
+def drop_excluded(lines: list, excludes: list) -> list:
+    if not excludes:
+        return lines
+    out, block = [], None
+    for line in lines:
+        if line == "BEGIN:VEVENT":
+            block = [line]
+            continue
+        if block is not None:
+            block.append(line)
+            if line == "END:VEVENT":
+                title = event_title(block).lower()
+                if any(x in title for x in excludes):
+                    print(f"Excluded: {event_title(block)}")
+                else:
+                    out.extend(block)
+                block = None
+            continue
+        out.append(line)
+    return out
+
+
+def convert(text: str, excludes: list = ()) -> str:
+    lines = drop_excluded(text.replace("\r\n", "\n").split("\n"), list(excludes))
     out = []
     timed = 0
     for line in lines:
@@ -74,7 +122,7 @@ def main() -> None:
     if "BEGIN:VCALENDAR" not in text:
         raise SystemExit("Upstream did not return a calendar; keeping the previous file.")
     with open(dest, "w", encoding="utf-8", newline="") as f:
-        f.write(convert(text))
+        f.write(convert(text, load_excludes()))
 
 
 if __name__ == "__main__":
