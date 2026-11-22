@@ -46,6 +46,40 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamax-trails-2026
+DTSTAMP:20261121T062700Z
+SUMMARY:[E] Dynamax Trails
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /dynamax-trails-2026/
+URL:https://leekduck.com/events/dynamax-trails-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-16-dynamax-trails-2026/dynamax-trails-2026.jpg
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Dynamax Trails
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:twilight-wishes-2026
+DTSTAMP:20261121T062700Z
+SUMMARY:[E] Twilight Wishes
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /twilight-wishes-2026/
+URL:https://leekduck.com/events/twilight-wishes-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/twilight-wishes-
+ 2026.jpg?v2
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261201
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Twilight Wishes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:december-communityday2026
 DTSTAMP:20261121T062700Z
 SUMMARY:[CD] December Community Day 2026
@@ -76,6 +110,23 @@ DTEND;VALUE=DATE:20261217
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Minior Showers: Geminids 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hatch-day-december-2026
+DTSTAMP:20261121T062700Z
+SUMMARY:[E] Hatch Day
+DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /hatch-day-december-2026/
+URL:https://leekduck.com/events/hatch-day-december-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Melbourne:20261226T110000
+DTEND;TZID=Australia/Melbourne:20261226T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Hatch Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
