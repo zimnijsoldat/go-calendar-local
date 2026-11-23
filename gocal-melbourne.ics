@@ -29,25 +29,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:november-communityday2026
-DTSTAMP:20261122T055639Z
-SUMMARY:[CD] Pawniard Community Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /november-communityday2026/
-URL:https://leekduck.com/events/november-communityday2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-11-21-november-communityday2026/pawniard-november-cd-2026.jpg
-DTSTART;TZID=Australia/Melbourne:20261121T140000
-DTEND;TZID=Australia/Melbourne:20261121T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Pawniard Community Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dynamax-trails-2026
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Dynamax Trails
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /dynamax-trails-2026/
@@ -64,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:twilight-wishes-2026
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Twilight Wishes
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /twilight-wishes-2026/
@@ -81,7 +64,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:december-communityday2026
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[CD] December Community Day 2026
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /december-communityday2026/
@@ -98,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-geminids-2026
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Minior Showers: Geminids 2026
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-geminids-2026/
@@ -115,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-december-2026
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-december-2026/
@@ -132,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communitydayclassic2027
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[CD] January Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communitydayclassic2027/
@@ -148,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communityday2027
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[CD] January Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communityday2027/
@@ -164,7 +147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:february-communityday2027
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[CD] February Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /february-communityday2027/
@@ -180,7 +163,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-eta-aquariids-2027
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Minior Showers: Eta Aquariids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-eta-aquariids-2027/
@@ -197,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-southern-delta-aquariids-2027
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Minior Showers: Southern Delta Aquariids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-southern-delta-aquariids-2027/
@@ -215,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-perseids-2027
-DTSTAMP:20261122T055639Z
+DTSTAMP:20261123T064707Z
 SUMMARY:[E] Minior Showers: Perseids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-perseids-2027/
