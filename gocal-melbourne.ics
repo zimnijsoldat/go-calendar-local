@@ -30,7 +30,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:twilight-wishes-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Twilight Wishes
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /twilight-wishes-2026/
@@ -47,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gigantamax-inteleon-max-battle-day-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[MB] Gigantamax Inteleon Max Battle Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /gigantamax-inteleon-max-battle-day-2026/
@@ -65,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tropical-paradise-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Tropical Paradise
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /tropical-paradise-2026/
@@ -82,7 +82,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:december-communityday2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[CD] December Community Day 2026
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /december-communityday2026/
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-champions-celebration-event-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Pokémon Champions Celebration Event 2026
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-champions-celebration-event-2026/
@@ -117,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-geminids-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Minior Showers: Geminids 2026
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-geminids-2026/
@@ -134,7 +134,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-december-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-december-2026/
@@ -151,7 +151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-holiday-2026
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Winter Holiday 2026
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /winter-holiday-2026/
@@ -168,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communitydayclassic2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[CD] January Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communitydayclassic2027/
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:new-years-2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] New Year's 2027
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /new-years-2027/
@@ -201,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communityday2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[CD] January Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communityday2027/
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-battle-day-january-2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[MB] Max Battle Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /max-battle-day-january-2027/
@@ -234,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:february-communityday2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[CD] February Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /february-communityday2027/
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-eta-aquariids-2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Minior Showers: Eta Aquariids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-eta-aquariids-2027/
@@ -267,7 +267,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-southern-delta-aquariids-2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Minior Showers: Southern Delta Aquariids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-southern-delta-aquariids-2027/
@@ -285,7 +285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:minior-showers-perseids-2027
-DTSTAMP:20261126T074026Z
+DTSTAMP:20261127T073934Z
 SUMMARY:[E] Minior Showers: Perseids 2027
 DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /minior-showers-perseids-2027/
